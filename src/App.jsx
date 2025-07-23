@@ -12,7 +12,7 @@ import Vendors from './Components/Vendors';
 import VendorLoginsignup from './Components/VendorsLogin';
 import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
-import Cart from './components/Cart';
+// import Cart from './components/Cart';
 
 // ✅ AppContent: Handles conditional navbar
 function AppContent() {
@@ -36,7 +36,7 @@ function AppContent() {
         <Route path="/AiFarm" element={<AIFarming />} />
         <Route path="/vendors" element={<Vendors />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/cart" element={<Cart />} />
+        {/* <Route path="/cart" element={<Cart />} /> */}
       </Routes>
     </>
   );
